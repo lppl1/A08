@@ -117,6 +117,19 @@ footer {
 	border-bottom: 2px solid var(--accent-color);
 }
 
+/*styles for speaker page*/
+.speaker{
+	& h1{
+		color: var(--accent-color);
+	}
+	& h2{
+		color: black;
+	}
+	& p{
+		padding: .5em 0;
+	}
+}
+
 /* CSS class */
 .large {
 	font-size: 125%;
