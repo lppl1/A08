@@ -44,6 +44,7 @@ ul {
 
 /* the styles for the header */
 header {
+	line-height: 1.2;
 	border-bottom: 2px solid var(--accent-color);
 	background-image: linear-gradient(
 	    30deg, var(--gradient-color) 0%, white 30%, white 65%, var(--gradient-color) 100%);
@@ -59,6 +60,9 @@ header {
 	& img {
 		float: left;
 		margin: .75em 1em;
+		width: 10%;
+		min-width: 40px;
+		max-width: 80px;
 	}
 }
 
@@ -79,6 +83,11 @@ main {
 aside {
 	flex-basis: 25%;
 	padding-right: 1em;
+	& img {
+		width: 50%;
+		min-width: 40px;
+		max-width: 75px;
+	}
 }
 /*styles for section*/
 section {
@@ -86,6 +95,9 @@ section {
 	& img {
 		float: right;
 		margin: 0 0 .5em 1em;
+		width: 40%;
+		min-width: 100px;
+		max-width: 250px;
 	}
 }
 
