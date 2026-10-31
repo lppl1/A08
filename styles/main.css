@@ -64,10 +64,6 @@ header {
 main {
 	display: flex;
 	padding: 0 1em 1em;
-	& h1 {
-		border-top: 2px solid var(--accent-color);
-		border-bottom: 2px solid var(--accent-color);
-	}
 	& blockquote {
 		font-style: italic;
 		padding-left: 1em;
@@ -80,6 +76,7 @@ main {
 /*styles for aside*/
 aside {
 	flex-basis: 25%;
+	padding-right: 1em;
 }
 /*styles for section*/
 section {
@@ -94,6 +91,12 @@ footer {
 		color: white;
 		padding: 1em 0;
 	}
+}
+
+/*styles for featured speaker*/
+.featured{
+	border-top:2px solid var(--accent-color);
+	border-bottom: 2px solid var(--accent-color);
 }
 
 /* CSS class */
