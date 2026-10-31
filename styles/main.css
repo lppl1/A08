@@ -14,17 +14,19 @@
 /* default styles */
 body {
 	font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
+    font-size: calc(90% + .2vw);
 	width: 80%;
+	max-width: 1024px;
 	margin: auto;
 	border: 2px solid var(--accent-color);
+	line-height: 1.5;
 }
 a:hover, a:focus{
 	font-style: italic;
 	color: var(--accent-color);
 }
 h1, h2, h3, p, ul {
-	padding: .5em 0;
+	padding: .25em 0;
 }
 h1 {
 	font-size: 150%;
@@ -81,6 +83,10 @@ aside {
 /*styles for section*/
 section {
 	flex-basis: 75%;
+	& img {
+		float: right;
+		margin: 0 0 .5em 1em;
+	}
 }
 
 /* the styles for the footer */
